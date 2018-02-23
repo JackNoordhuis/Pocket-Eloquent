@@ -1,4 +1,5 @@
 --- # Poggit-CI Manifest. Open the CI at projects:
+projects:
   pocket-eloquent:
     type: library
     model: virion
