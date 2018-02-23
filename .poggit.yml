@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at projects:
+  pocket-eloquent:
+    type: library
+    model: virion
+    path: pocket-eloquent
+  ReturningPlayer:
+    path: examples/ReturningPlayer
+    libs:
+      - src: /pocket-eloquent
+        version: 0.0.1
+...
