@@ -1,0 +1,6 @@
+name: pocket-eloquent
+description: A virion for using Laravel's database components in PocketMine-MP plugins.
+version: 0.0.1
+antigen: jacknoordhuis\pocketeloquent
+api: 3.0.0-ALPHA11
+authors: [JackNoordhuis]

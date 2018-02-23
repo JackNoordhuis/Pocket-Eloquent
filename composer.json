@@ -1,0 +1,15 @@
+{
+    "name": "jacknoordhuis/pocket-eloquent",
+    "description": "A virion for using Laravel's database components in PocketMine-MP plugins.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "JackNoordhuis",
+            "email": "me@jacknoordhuis.net"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.5",
+        "doctrine/dbal": "^2.5"
+    }
+}
