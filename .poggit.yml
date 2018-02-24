@@ -4,6 +4,9 @@ projects:
     type: library
     model: virion
     path: pocket-eloquent
+    libs:
+      - src: JackNoordhuis/Pocket-Eloquent/pocket-eloquent
+        version: 1.22.1
   ReturningPlayer:
     path: examples/ReturningPlayer
     libs:

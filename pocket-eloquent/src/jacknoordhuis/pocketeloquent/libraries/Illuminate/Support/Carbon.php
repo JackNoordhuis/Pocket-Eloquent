@@ -3,7 +3,7 @@
 namespace jacknoordhuis\pocketeloquent\libraries\Illuminate\Support;
 
 use JsonSerializable;
-use jacknoordhuis\pocketeloquent\libraries\Carbon\Carbon as BaseCarbon;
+use Carbon\Carbon as BaseCarbon;
 use jacknoordhuis\pocketeloquent\libraries\Illuminate\Support\Traits\Macroable;
 
 class Carbon extends BaseCarbon implements JsonSerializable
