@@ -79,7 +79,7 @@ class Migrator {
 	 */
 	public function runPending(array $migrations) : void {
 		// First, make sure there are migrations to run.
-		if(count($migrations) <= 0) {
+		if(empty($migrations)) {
 			$this->note("Nothing to migrate.");
 			return;
 		}
@@ -130,7 +130,7 @@ class Migrator {
 		// of them "down" to reverse the last migration "operation" which ran.
 		$migrations = $this->getMigrationsForRollback();
 
-		if(count($migrations) <= 0) {
+		if(empty($migrations)) {
 			$this->note("Nothing to rollback.");
 			return [];
 		}
@@ -191,7 +191,7 @@ class Migrator {
 		// database back into its "empty" state.
 		$rows = array_reverse($this->repository->getRan());
 
-		if(count($rows) <= 0) {
+		if(empty($rows)) {
 			$this->note("Nothing to rollback.");
 			return [];
 		}
