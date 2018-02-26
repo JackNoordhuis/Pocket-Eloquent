@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace jacknoordhuis\pocketeloquent\facade;
 
 /**
- * @method static \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Builder create(string $table, \Closure $callback)
- * @method static \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Builder drop(string $table)
- * @method static \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Builder dropIfExists(string $table)
- * @method static \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Builder table(string $table, \Closure $callback)
+ * @method static \Illuminate\Database\Schema\Builder create(string $table, \Closure $callback)
+ * @method static \Illuminate\Database\Schema\Builder drop(string $table)
+ * @method static \Illuminate\Database\Schema\Builder dropIfExists(string $table)
+ * @method static \Illuminate\Database\Schema\Builder table(string $table, \Closure $callback)
  *
  * @see \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Builder
  */

@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace jacknoordhuis\pocketeloquent\database\migration;
 
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Connection;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\ConnectionInterface;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\ConnectionResolverInterface;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Migrations\DatabaseMigrationRepository;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Grammars\Grammar;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Support\Arr;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Support\Collection;
+use Illuminate\Database\Connection;
+use Illuminate\Database\ConnectionInterface;
+use Illuminate\Database\ConnectionResolverInterface;
+use Illuminate\Database\Migrations\DatabaseMigrationRepository;
+use Illuminate\Database\Schema\Grammars\Grammar;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
 
 class Migrator {
 

@@ -6,7 +6,7 @@ namespace jacknoordhuis\virionseg\pocketeloquent\returningplayer\migrations;
 
 use jacknoordhuis\pocketeloquent\database\migration\Migration;
 use jacknoordhuis\pocketeloquent\facade\Schema;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Schema\Blueprint;
 
 class CreatePlayersTable extends Migration {
 

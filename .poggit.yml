@@ -5,11 +5,11 @@ projects:
     model: virion
     path: pocket-eloquent
     libs:
-      - src: JackNoordhuis/Carbon/Carbon
-        version: 1.22.1
+      - src: JackNoordhuis/framework/Database
+        version: 5.6.5
   ReturningPlayer:
     path: examples/ReturningPlayer
     libs:
-      - src: /pocket-eloquent
+      - src: JackNoordhuis/Pocket-Eloquent/pocket-eloquent
         version: 0.0.1
 ...

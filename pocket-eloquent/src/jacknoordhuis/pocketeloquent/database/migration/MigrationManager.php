@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace jacknoordhuis\pocketeloquent\database\migration;
 
 use jacknoordhuis\pocketeloquent\database\DatabaseManager;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Migrations\DatabaseMigrationRepository;
+use Illuminate\Database\Migrations\DatabaseMigrationRepository;
 
 class MigrationManager {
 

@@ -7,7 +7,6 @@ namespace jacknoordhuis\pocketeloquent;
 use jacknoordhuis\pocketeloquent\database\DatabaseCredentials;
 use jacknoordhuis\pocketeloquent\database\DatabaseManager;
 use jacknoordhuis\pocketeloquent\facade\Facade;
-use pocketmine\Server;
 
 class PocketEloquent implements PocketEloquentCapsule {
 

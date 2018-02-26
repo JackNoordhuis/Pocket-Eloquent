@@ -6,7 +6,7 @@ namespace jacknoordhuis\pocketeloquent\database;
 
 use jacknoordhuis\pocketeloquent\database\migration\MigrationManager;
 use jacknoordhuis\pocketeloquent\PocketEloquentCapsule;
-use jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Capsule\Manager as DatabaseCapsule;
+use Illuminate\Database\Capsule\Manager as DatabaseCapsule;
 
 class DatabaseManager {
 

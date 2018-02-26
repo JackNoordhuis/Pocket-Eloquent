@@ -5,6 +5,14 @@
       <path value="$USER_HOME$/Stuff/PMMP/PocketMine-MP/src" />
       <path value="$USER_HOME$/Stuff/PMMP/PocketMine-MP/vendor" />
       <path value="$PROJECT_DIR$/../Carbon/src" />
+      <path value="$PROJECT_DIR$/../polyfill-mbstring/src" />
+      <path value="$PROJECT_DIR$/../translation/src" />
+      <path value="$PROJECT_DIR$/../container/src" />
+      <path value="$PROJECT_DIR$/../simple-cache/src" />
+      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Container" />
+      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Contracts" />
+      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Database" />
+      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Support" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
