@@ -9,6 +9,10 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/../Carbon/src" />
           <root url="file://$MODULE_DIR$/../container/src" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Container" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Contracts" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Database" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Support" />
           <root url="file://$MODULE_DIR$/../polyfill-mbstring/src" />
           <root url="file://$MODULE_DIR$/../simple-cache/src" />
           <root url="file://$MODULE_DIR$/../translation/src" />
@@ -18,6 +22,10 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/../Carbon/src" />
           <root url="file://$MODULE_DIR$/../container/src" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Container" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Contracts" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Database" />
+          <root url="file://$MODULE_DIR$/../framework/Illuminate/Support" />
           <root url="file://$MODULE_DIR$/../polyfill-mbstring/src" />
           <root url="file://$MODULE_DIR$/../simple-cache/src" />
           <root url="file://$MODULE_DIR$/../translation/src" />

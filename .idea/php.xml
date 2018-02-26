@@ -9,10 +9,10 @@
       <path value="$PROJECT_DIR$/../translation/src" />
       <path value="$PROJECT_DIR$/../container/src" />
       <path value="$PROJECT_DIR$/../simple-cache/src" />
-      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Container" />
-      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Contracts" />
-      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Database" />
-      <path value="$PROJECT_DIR$/../framework/src/Illuminate/Support" />
+      <path value="$PROJECT_DIR$/../framework/Illuminate/Container" />
+      <path value="$PROJECT_DIR$/../framework/Illuminate/Contracts" />
+      <path value="$PROJECT_DIR$/../framework/Illuminate/Database" />
+      <path value="$PROJECT_DIR$/../framework/Illuminate/Support" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

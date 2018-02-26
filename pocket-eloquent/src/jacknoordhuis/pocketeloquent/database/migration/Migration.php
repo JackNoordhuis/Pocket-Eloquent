@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace jacknoordhuis\pocketeloquent\database\migration;
 
 use Illuminate\Database\Migrations\Migration as BaseMigration;
+use Illuminate\Support\Facades\Schema;
 
 abstract class Migration extends BaseMigration {
 

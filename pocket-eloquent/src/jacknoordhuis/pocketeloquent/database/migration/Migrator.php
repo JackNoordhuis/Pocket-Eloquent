@@ -11,6 +11,7 @@ use Illuminate\Database\Migrations\DatabaseMigrationRepository;
 use Illuminate\Database\Schema\Grammars\Grammar;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
+use jacknoordhuis\pocketeloquent\facade\Schema;
 
 class Migrator {
 
@@ -248,7 +249,7 @@ class Migrator {
 
 		$callback = function() use ($migration, $method) {
 			if(method_exists($migration, $method)) {
-				$migration->{$method}();
+				$migration->{$method}(Schema::getFacadeRoot());
 			}
 		};
 
@@ -310,7 +311,7 @@ class Migrator {
 	 *
 	 * @param null|string $connection
 	 *
-	 * @return \jacknoordhuis\pocketeloquent\libraries\Illuminate\Database\Connection|ConnectionInterface
+	 * @return \Illuminate\Database\Connection|ConnectionInterface
 	 */
 	public function resolveConnection(?string $connection) {
 		return $this->resolver->connection($connection ?? $this->connection);

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace jacknoordhuis\pocketeloquent\database;
 
 use jacknoordhuis\pocketeloquent\database\migration\MigrationManager;
+use jacknoordhuis\pocketeloquent\database\schema\Blueprint;
 use jacknoordhuis\pocketeloquent\PocketEloquentCapsule;
 use Illuminate\Database\Capsule\Manager as DatabaseCapsule;
 
@@ -38,6 +39,9 @@ class DatabaseManager {
 		$this->capsule = new DatabaseCapsule();
 
 		$this->capsule->addConnection($credentials->toArray());
+		$this->capsule->getConnection()->getSchemaBuilder()->blueprintResolver(function($table) {
+			return new Blueprint($table);
+		});
 
 		$this->capsule->setAsGlobal();  // Make static methods available globally
 		$this->capsule->bootEloquent(); // Setup the eloquent ORM
