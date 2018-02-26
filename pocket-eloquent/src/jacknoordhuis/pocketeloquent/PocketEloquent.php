@@ -46,12 +46,6 @@ class PocketEloquent implements PocketEloquentCapsule {
 
 		Facade::setFacadeCapsule($this);
 
-		//Server::getInstance()->getLoader()->addPath("./libraries/Illuminate/Support/helpers.php");
-		//Server::getInstance()->getLoader()->addPath("./libraries/Symfony/Polyfill/bootstrap.php");
-
-		require_once "libraries/Illuminate/Support/helpers.php";
-		require_once "libraries/Symfony/Polyfill/bootstrap.php";
-
 		$this->databaseManager = new DatabaseManager($this);
 	}
 
